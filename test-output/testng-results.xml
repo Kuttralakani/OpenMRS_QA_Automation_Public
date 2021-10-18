@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="11" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-18T18:59:39 IST" name="Suite" finished-at="2021-10-18T19:02:13 IST" duration-ms="154619">
+    <groups>
+    </groups>
+    <test started-at="2021-10-18T18:59:39 IST" name="Test" finished-at="2021-10-18T19:02:13 IST" duration-ms="154619">
+      <class name="com.openmrs.testcases.TC003_CreateAndDeletePatient">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.openmrs.testcases.TC003_CreateAndDeletePatient@716a7124]" started-at="2021-10-18T19:00:10 IST" name="beforeClass" finished-at="2021-10-18T19:00:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.openmrs.testcases.TC003_CreateAndDeletePatient@716a7124]" started-at="2021-10-18T19:00:10 IST" name="beforeMethod" finished-at="2021-10-18T19:00:21 IST" duration-ms="10932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createPatientAndDelete(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.openmrs.testcases.TC003_CreateAndDeletePatient@716a7124]" started-at="2021-10-18T19:00:21 IST" name="createPatientAndDelete" data-provider="fetchData" finished-at="2021-10-18T19:02:13 IST" duration-ms="111965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Isolation Ward]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Mugeni]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Anet]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1990]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Address 1]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Address 2]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[City]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[State]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Country]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[101010]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Parent]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Parent]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[OpenMRS Electronic Medical Record]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[OpenMRS Electronic Medical Record]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[OpenMRS Electronic Medical Record]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[TEST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPatientAndDelete -->
+        <test-method is-config="true" signature="afterMedthod()[pri:0, instance:com.openmrs.testcases.TC003_CreateAndDeletePatient@716a7124]" started-at="2021-10-18T19:02:13 IST" name="afterMedthod" finished-at="2021-10-18T19:02:13 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMedthod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.openmrs.testcases.TC003_CreateAndDeletePatient@716a7124]" started-at="2021-10-18T19:02:13 IST" name="afterClass" finished-at="2021-10-18T19:02:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.openmrs.testcases.TC003_CreateAndDeletePatient -->
+      <class name="com.openmrs.testcases.TC002_UnsuccessfulLoginTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.openmrs.testcases.TC002_UnsuccessfulLoginTest@5241cf67]" started-at="2021-10-18T19:00:01 IST" name="beforeClass" finished-at="2021-10-18T19:00:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.openmrs.testcases.TC002_UnsuccessfulLoginTest@5241cf67]" started-at="2021-10-18T19:00:01 IST" name="beforeMethod" finished-at="2021-10-18T19:00:07 IST" duration-ms="6813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="unSuccessfulLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.openmrs.testcases.TC002_UnsuccessfulLoginTest@5241cf67]" started-at="2021-10-18T19:00:07 IST" name="unSuccessfulLoginTest" data-provider="fetchData" finished-at="2021-10-18T19:00:10 IST" duration-ms="2578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin155]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Isolation Ward]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid username/password. Please try again.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unSuccessfulLoginTest -->
+        <test-method is-config="true" signature="afterMedthod()[pri:0, instance:com.openmrs.testcases.TC002_UnsuccessfulLoginTest@5241cf67]" started-at="2021-10-18T19:00:10 IST" name="afterMedthod" finished-at="2021-10-18T19:00:10 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMedthod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.openmrs.testcases.TC002_UnsuccessfulLoginTest@5241cf67]" started-at="2021-10-18T19:00:10 IST" name="afterClass" finished-at="2021-10-18T19:00:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.openmrs.testcases.TC002_UnsuccessfulLoginTest -->
+      <class name="com.openmrs.testcases.TC001_SuccessfulLoginTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.openmrs.testcases.TC001_SuccessfulLoginTest@3c0fae6c]" started-at="2021-10-18T18:59:39 IST" name="beforeSuite" finished-at="2021-10-18T18:59:39 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.openmrs.testcases.TC001_SuccessfulLoginTest@3c0fae6c]" started-at="2021-10-18T18:59:39 IST" name="beforeTest" finished-at="2021-10-18T18:59:39 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.openmrs.testcases.TC001_SuccessfulLoginTest@3c0fae6c]" started-at="2021-10-18T18:59:39 IST" name="beforeClass" finished-at="2021-10-18T18:59:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.openmrs.testcases.TC001_SuccessfulLoginTest@3c0fae6c]" started-at="2021-10-18T18:59:39 IST" name="beforeMethod" finished-at="2021-10-18T18:59:50 IST" duration-ms="11125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="successfulLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.openmrs.testcases.TC001_SuccessfulLoginTest@3c0fae6c]" started-at="2021-10-18T18:59:50 IST" name="successfulLoginTest" data-provider="fetchData" finished-at="2021-10-18T19:00:00 IST" duration-ms="10037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Isolation Ward]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginTest -->
+        <test-method is-config="true" signature="afterMedthod()[pri:0, instance:com.openmrs.testcases.TC001_SuccessfulLoginTest@3c0fae6c]" started-at="2021-10-18T19:00:00 IST" name="afterMedthod" finished-at="2021-10-18T19:00:01 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMedthod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.openmrs.testcases.TC001_SuccessfulLoginTest@3c0fae6c]" started-at="2021-10-18T19:00:01 IST" name="afterClass" finished-at="2021-10-18T19:00:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.openmrs.testcases.TC001_SuccessfulLoginTest@3c0fae6c]" started-at="2021-10-18T19:02:13 IST" name="afterTest" finished-at="2021-10-18T19:02:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.openmrs.testcases.TC001_SuccessfulLoginTest@3c0fae6c]" started-at="2021-10-18T19:02:13 IST" name="afterSuite" finished-at="2021-10-18T19:02:14 IST" duration-ms="1021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.openmrs.testcases.TC001_SuccessfulLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
